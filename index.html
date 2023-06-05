@@ -15,11 +15,19 @@
         <li>Un fichier .js séparé</li>
     </ul>
     <script>
-      let nomPetit = "doulcet";
-      let nomGrand = nomPetit.toUpperCase();
-      let nomTaille = nomPetit.length;
+     const listePrenom = ["Quentin", "Kevin", "Marc", "Valerie"];
+     const i = 0
 
-      console.log(`Le nom "${nomPetit}" devient en majuscule : ${nomGrand} et compte ${nomTaille} lettres.`)
+    //  for (let i = 0; i < listePrenom.length; i++) {
+    //   const prenom = listePrenom[i];
+    //   console.log(prenom);
+    // };
+
+    for (let personne in listePrenom) {
+      console.log(listePrenom[personne])
+
+    }
+
     </script>
     </body>
 </html>
