@@ -15,19 +15,18 @@
         <li>Un fichier .js séparé</li>
     </ul>
     <script>
-     const listePrenom = ["Quentin", "Kevin", "Marc", "Valerie"];
-     const i = 0
+        const listePrenom = ["Quentin", "Kevin", "Marc", "Valerie"];
+        let p = 0
+        const nouvelleListe = listePrenom.unshift("Orange", "Pomme")
 
-    //  for (let i = 0; i < listePrenom.length; i++) {
-    //   const prenom = listePrenom[i];
-    //   console.log(prenom);
-    // };
+        for (let i = 0; i < listePrenom.length; i++) {
+          p += 1
+          console.log(`Prenom n°${p} : ${listePrenom[i]} à l'index ${i}`)
+        }
 
-    for (let personne in listePrenom) {
-      console.log(listePrenom[personne])
 
-    }
-
+        console.log(nouvelleListe)
+        console.log(listePrenom)
     </script>
     </body>
 </html>
