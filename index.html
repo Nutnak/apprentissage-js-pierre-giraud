@@ -15,20 +15,11 @@
         <li>Un fichier .js séparé</li>
     </ul>
     <script>
-      let heure = 10;
+      let nomPetit = "doulcet";
+      let nomGrand = nomPetit.toUpperCase();
+      let nomTaille = nomPetit.length;
 
-      for (let i = 0; i < 10; i++ ) {
-        console.log("Je suis vivant");
-      };
-
-      while (heure < 20) {
-        heure++;
-        console.log("J'ajoute + 1 à chaque fois.")
-      };
-
-      console.log(heure)
-
-
+      console.log(`Le nom "${nomPetit}" devient en majuscule : ${nomGrand} et compte ${nomTaille} lettres.`)
     </script>
     </body>
 </html>
