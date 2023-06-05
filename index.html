@@ -15,13 +15,11 @@
         <li>Un fichier .js séparé</li>
     </ul>
     <script>
-     const heure = 15;
-
-     if (heure <= 18 && heure == 15) {
-      console.log("Oui, heure est bien inférieur à 18.");
-     }else{
-      console.log("Non, ça ne marche pas :/");
-     };
+      const heure = 15;
+      let bon = "";
+      // La ternaire ici sert à décidé si elle doit dire bonjour ou bonsoir en fonction de l'heure.
+      bon = (heure <= 18) ? "Bonjour" : "Bonsoir";
+      console.log(bon);
 
     </script>
     </body>
